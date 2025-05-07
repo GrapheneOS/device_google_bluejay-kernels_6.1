@@ -150,6 +150,7 @@ extra/private/google-modules/soc/gs/drivers/char/hw_random/exyswd-rng.ko
 extra/private/google-modules/soc/gs/drivers/iommu/samsung_iommu.ko
 extra/private/google-modules/soc/gs/drivers/iommu/samsung-iommu-group.ko
 extra/private/google-modules/soc/gs/drivers/iommu/samsung-secure-iova.ko
+extra/private/google-modules/soc/gs/drivers/iommu/iovad-best-fit-algo.ko
 extra/private/google-modules/soc/gs/drivers/gpu/exynos/g2d/g2d.ko
 extra/private/google-modules/soc/gs/drivers/misc/gsc-spi.ko
 extra/private/google-modules/soc/gs/drivers/misc/sbb-mux/sbb-mux.ko
