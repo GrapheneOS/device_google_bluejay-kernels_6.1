@@ -3,7 +3,6 @@ kernel/kernel/kheaders.ko
 kernel/mm/zsmalloc.ko
 kernel/lib/crypto/libarc4.ko
 kernel/drivers/gpu/drm/display/drm_display_helper.ko
-kernel/drivers/block/zram/zram.ko
 kernel/drivers/misc/eeprom/at24.ko
 kernel/drivers/scsi/sg.ko
 kernel/drivers/spi/spidev.ko
@@ -128,6 +127,7 @@ extra/private/google-modules/soc/gs/drivers/soc/google/gsa/gsa_gsc.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/bcm_dbg.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/exynos-bcm_dbg-dump.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/eh/eh.ko
+extra/private/google-modules/soc/gs/drivers/soc/google/smra/smra.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/s2mpu/s2mpu.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/hardlockup-debug.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/hardlockup-watchdog.ko
@@ -138,6 +138,7 @@ extra/private/google-modules/soc/gs/drivers/soc/google/dbgcore-dump.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/exynos-seclog.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/boot_control/boot_control_sysfs.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/kernel-top.ko
+extra/private/google-modules/soc/gs/drivers/soc/google/modemctl/google_modemctl.ko
 extra/private/google-modules/soc/gs/drivers/regulator/max77826-gs-regulator.ko
 extra/private/google-modules/soc/gs/drivers/regulator/pmic_class.ko
 extra/private/google-modules/soc/gs/drivers/regulator/s2mpg10-regulator.ko
@@ -250,6 +251,7 @@ extra/private/google-modules/bms/max77779_pmic_i2c.ko
 extra/private/google-modules/bms/ln8411.ko
 extra/private/google-modules/bms/max77779-fwupdate.ko
 extra/private/google-modules/bms/rt9471_charger.ko
+extra/private/google-modules/bms/hl7132.ko
 extra/private/google-modules/bms/misc/gvotable.ko
 extra/private/google-modules/bms/misc/logbuffer.ko
 extra/private/google-modules/display/common/gs_drm/gs-drm-connector.ko
@@ -268,9 +270,10 @@ extra/private/google-modules/display/samsung/panel/panel-boe-nt37290.ko
 extra/private/google-modules/display/samsung/exynos-drm.ko
 extra/private/google-modules/display/samsung/exynos-drm-audio.ko
 extra/private/google-modules/edgetpu/abrolhos/drivers/edgetpu/abrolhos.ko
-extra/private/google-modules/gpu/mali_kbase/tests/kutf/mali_kutf.ko
-extra/private/google-modules/gpu/mali_kbase/tests/mali_kutf_clk_rate_trace/kernel/mali_kutf_clk_rate_trace_test_portal.ko
-extra/private/google-modules/gpu/mali_kbase/mali_kbase.ko
+extra/private/google-modules/fingerprint/goodix/fps_touch_handler/fps_touch_handler.ko
+extra/private/google-modules/gpu/borr_mali_kbase/tests/kutf/mali_kutf.ko
+extra/private/google-modules/gpu/borr_mali_kbase/tests/mali_kutf_clk_rate_trace/kernel/mali_kutf_clk_rate_trace_test_portal.ko
+extra/private/google-modules/gpu/borr_mali_kbase/mali_kbase.ko
 extra/private/google-modules/gpu/mali_pixel/mali_pixel.ko
 extra/private/google-modules/lwis/lwis.ko
 extra/private/google-modules/misc/sscoredump/sscoredump_test.ko
