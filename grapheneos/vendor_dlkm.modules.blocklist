@@ -1,3 +1,4 @@
+
 blocklist mali_kutf
 blocklist mali_kutf_clk_rate_trace_test_portal
 blocklist pktgen
